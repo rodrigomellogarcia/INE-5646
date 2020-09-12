@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Rodrigo de Mello Garcia - Página Pessoal</title>
+        <meta lang="pt-br">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <style>
+            body {
+                background-color: #24252E;
+            }
+        </style>
+    </head>
+    
+    <header>
+        <div id="main-title">
+            <h1 style="text-align: left">Rodrigo de Mello Garcia</h1>
+            <p>Página pessoal para a disciplina INE5646 - Programação Web</p>
+        </div>
+            <ul class="menu">
+                <li>
+                    <a href="https://www.instagram.com/rodrigo.mellogarcia/">Instagram</a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/RodrigoM_Garcia">Twitter</a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/rodrigo-garcia-62a599b6/">LinkedIn</a>
+                </li>
+                
+                
+            </ul>
+        </nav>
+    </header>
+
+    <body>
+        <h1>Sobre mim</h1>
+        <div class="segment" id= "aboutme">
+            <div>
+                <p>Sou um estudante de Sistemas de Informação na Universidade Federal de Santa Catarina, Campus Florianópolis. Meus interesses incluem programação, jogos, leitura, música e cozinha. Sou dono de quatro cachorros e onze galinhas.</p>
+                <h3 style="margin-top: 10px">Contato:</h3>
+                <p>rodrigo.mellogarcia@gmail.com</p>
+            </div>
+            <img id="profilepic" src="img/perfil.png" alt="Perfil">
+        </div>
+
+        <div class="segment" id="academico">
+            <h1>Acadêmico</h1>
+            <ul>
+                <li><b>2019 - Atualmente:</b> Bacharelado de Sistemas de Informação na Universidade Federal de Santa Catarina.</li>
+                <li><b>11/2019 - Atualmente:</b> Estagiário no Laboratório Bridge na área de desenvolvimento mobile.</li>
+            </ul>
+        </div>
+
+        <div class="segment">
+            <h1>Você tem mais animais de estimação do que eu?</h1>
+            <h2>Insira no campo abaixo seus animais de estimação e eu lhe direi se tenho mais animais que você :)</h2>
+            <p style="text-align: center" id="answer-pets">Por enquanto eu tenho mais animais que você >:)</p>
+            <input id="new-pet"></input>
+            <button type="button" onclick="addPet()">Adicionar Pet</button>
+            <ol id="list-pets">
+
+            </ol>
+        </div>
+        
+        <script src="index.js"></script>
+
+    </body>
+
+</html>
