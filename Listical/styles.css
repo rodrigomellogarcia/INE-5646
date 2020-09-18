@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+
+body {
+  font-family: "Roboto Slab", serif;
+  background-color: #121212;
+}
+
+#list-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: goldenrod;
+    background: url(img/greed.jpg) no-repeat center center;
+    background-size: cover;
+    height: 200px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#list-header h1 {
+    color: white;
+    font-size: 20pt;
+    text-align: center;
+}
+
+#profile-div {
+    position: absolute;
+    top: 150px;
+    width: calc(100% - 16px);
+}
+
+#profile-div p {
+    text-align: center;
+    color: white;
+}
+
+#profile {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 5px solid #121212;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#posts {
+    width: 66.67%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    border-radius: 20px;
+}
+
+.post {
+    background-color: lightgoldenrodyellow;
+    margin: 20px 10px 20px 10px;
+    padding: 25px 15px 10px 15px;
+    border-radius: 20px;
+}
+
+.post h1 {
+    font-size: 24pt;
+}
+
+.post h2 {
+    font-size: 16pt;
+    color: green;
+}
+
+.post img {
+    max-width: 90%;
+    max-height: 100%;
+    min-width: 10%;
+    border: 5px solid goldenrod;
+    border-radius: 10px;
+    object-fit: contain;
+    display: block;
+    margin: auto;
+}
+
+.post p {
+    text-align: justify;
+}
