@@ -1,17 +1,8 @@
-@font-face {
-    font-family: "IBM-Plex-Sans";
-    src:url(./fonts/IBM-Plex-Sans/IBMPlexSans-Medium.ttf)
-}
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans");
 
-h1, h2, h3, p, ul {
+h1, h2, h3, p {
     margin: 0px;
     padding: 0px;
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-    color: white;
 }
 
 p {
@@ -33,6 +24,18 @@ header {
     padding: 20px;
     align-items: center;
     justify-content: space-between;
+    background-color: #3A3A47;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
 }
 
 .menu {
@@ -44,35 +47,30 @@ header {
 }
 
 body {
-    font-family: "IBM-Plex-Sans";
+    font-family: "IBM Plex Sans";
     color: white;
     margin: 0px;
     padding: 0px;
 }
 
-.segment {
-    margin-bottom: 50px;
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
+body a:link {
+    color: white;
 }
 
-#profilepic {
+body a:visited {
+    color: #D3D4DD
+}
+
+#profile {
+    display: block;
+    margin: 20px auto 20px auto;
     border-radius: 50%;
-    width: 200px;
-    margin-left: 10px;
 }
 
-#profilepic:hover {
-    transform: rotate(180deg);
-}
-
-#aboutme {
-    display: flex;
-    align-items: center;
-}
-
-#academico ul {
-    padding-left: 50px;
-    list-style: circle;
+.segment {
+    background-color: #3A3A47;
+    border-radius: 10px;
+    margin: 20px auto 20px auto;
+    max-width: 60%;
+    padding: 10px;
 }
